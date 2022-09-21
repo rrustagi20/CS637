@@ -1,2 +1,2 @@
-# cs637
+# CS637
 Course Project Repository
