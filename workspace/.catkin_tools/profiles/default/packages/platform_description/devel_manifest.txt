@@ -1,0 +1,5 @@
+platform_description
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/.private/platform_description/cmake.lock /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/./cmake.lock
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/.private/platform_description/share/platform_description/cmake/platform_descriptionConfig-version.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/share/platform_description/cmake/platform_descriptionConfig-version.cmake
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/.private/platform_description/share/platform_description/cmake/platform_descriptionConfig.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/share/platform_description/cmake/platform_descriptionConfig.cmake
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/.private/platform_description/lib/pkgconfig/platform_description.pc /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/lib/pkgconfig/platform_description.pc

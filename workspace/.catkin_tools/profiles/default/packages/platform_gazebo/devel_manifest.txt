@@ -1,0 +1,5 @@
+platform_gazebo
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/.private/platform_gazebo/cmake.lock /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/./cmake.lock
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/.private/platform_gazebo/share/platform_gazebo/cmake/platform_gazeboConfig.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/share/platform_gazebo/cmake/platform_gazeboConfig.cmake
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/.private/platform_gazebo/share/platform_gazebo/cmake/platform_gazeboConfig-version.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/share/platform_gazebo/cmake/platform_gazeboConfig-version.cmake
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/.private/platform_gazebo/lib/pkgconfig/platform_gazebo.pc /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/workspace/devel/lib/pkgconfig/platform_gazebo.pc
