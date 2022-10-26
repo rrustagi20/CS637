@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   roscpp
   rospy
-  rotors_gazebo_plugins
+  # rotors_gazebo_plugins
   std_msgs
   xacro
 )
