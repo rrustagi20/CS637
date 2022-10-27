@@ -26,11 +26,13 @@
 
 geometry_msgs::Twist curr_pose;
 
-void poseCallback(const geometry_msgs::Twist::ConstPtr& msg) {
+void poseCallback(const geometry_msgs::Twist::ConstPtr &msg)
+{
     curr_pose = *msg;
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char **argv)
+{
     ros::init(argc, argv, "platform_trajectory");
     ros::NodeHandle nh;
     // Create a private node handle for accessing node parameters.
@@ -45,8 +47,8 @@ int main(int argc, char** argv) {
     // ros::Duration(5.0).sleep();
 
     ros::Rate rate(100.0);
-    ros::Subscriber current_pose = nh.subscribe("/firefly/ground_truth/pose", 10, poseCallback);
-    while (ros::ok()) {
+    while (ros::ok())
+    {
         trajectory_msg.linear.x = FORWARD_VEL;
         trajectory_msg.angular.z = ANGULAR_VEL;
         trajectory_pub.publish(trajectory_msg);

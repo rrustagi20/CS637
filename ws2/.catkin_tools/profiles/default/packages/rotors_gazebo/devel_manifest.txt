@@ -1,0 +1,8 @@
+rotors_simulator/rotors_gazebo
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_gazebo/cmake.lock /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/./cmake.lock
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_gazebo/lib/pkgconfig/rotors_gazebo.pc /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/pkgconfig/rotors_gazebo.pc
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_gazebo/lib/rotors_gazebo/hovering_example /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/rotors_gazebo/hovering_example
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_gazebo/lib/rotors_gazebo/waypoint_publisher /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/rotors_gazebo/waypoint_publisher
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_gazebo/lib/rotors_gazebo/waypoint_publisher_file /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/rotors_gazebo/waypoint_publisher_file

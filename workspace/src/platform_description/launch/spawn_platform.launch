@@ -27,10 +27,10 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 
   <!-- <arg name="multimaster" default="false"/> -->
 
-  <arg name="robot_namespace" default="/"/>
+  <arg name="robot_namespace" default="/platform"/>
 
   <arg name="x" default="0.0"/>
-  <arg name="y" default="0.0"/>
+  <arg name="y" default="-5.0"/>
   <arg name="z" default="0.0"/>
   <arg name="yaw" default="0.0"/>
 
@@ -59,12 +59,12 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 
     <include file="$(find husky_control)/launch/control.launch">
     </include>
-
-    <param name="robot_description" command="cat $(find platform_description)/urdf/husky.urdf" />
-    
     <include file="$(find husky_control)/launch/teleop.launch">
       <arg name="joystick" value="$(arg joystick)" />
     </include>
+
+    <param name="robot_description" command="cat $(find platform_description)/urdf/husky.urdf" />
+
     <!-- </group> -->
 
     <!-- Additional nodes for specific accessories -->

@@ -1,0 +1,5 @@
+rotors_simulator/rotors_description
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_description/cmake.lock /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/./cmake.lock
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/rotors_description/cmake/rotors_descriptionConfig.cmake
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake
+/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_description/lib/pkgconfig/rotors_description.pc /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/pkgconfig/rotors_description.pc
