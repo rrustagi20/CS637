@@ -1,0 +1,2 @@
+mav_pose: "/firefly/ground_truth/pose"
+mav_cmd_trajectory: "/firefly/command/trajectory"
