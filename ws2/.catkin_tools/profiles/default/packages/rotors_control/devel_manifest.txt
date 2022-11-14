@@ -1,9 +1,0 @@
-rotors_simulator/rotors_control
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_control/cmake.lock /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/./cmake.lock
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_control/share/rotors_control/cmake/rotors_controlConfig-version.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/rotors_control/cmake/rotors_controlConfig-version.cmake
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_control/share/rotors_control/cmake/rotors_controlConfig.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/rotors_control/cmake/rotors_controlConfig.cmake
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_control/lib/liblee_position_controller.so /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/liblee_position_controller.so
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.so /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/libroll_pitch_yawrate_thrust_controller.so
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_control/lib/rotors_control/lee_position_controller_node /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/rotors_control/lee_position_controller_node
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_control/lib/pkgconfig/rotors_control.pc /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/pkgconfig/rotors_control.pc

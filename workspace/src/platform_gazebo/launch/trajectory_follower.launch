@@ -3,15 +3,16 @@
 
   <arg name="world_name" default="worlds/empty.world"/>
 
-  <include file="$(find platform_description)/launch/platform_empty_world.launch">
-    <arg name="world_name" value="$(arg world_name)"/>
+  <include file="$(find platform_description)/launch/spawn_platform.launch">
     <!-- world_name is wrt GAZEBO_RESOURCE_PATH environment variable -->
+    <!-- <arg name="world_name" value="$(arg world_name)"/> -->
     <!-- <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
     <arg name="headless" value="false"/>
     <arg name="debug" value="false"/> -->
   </include>
+  <rosparam command="load" file="$(find platform_description)/config/params.yaml"/>
 
   <node name="platform_trajectory" type="trajectory_node" output="screen" pkg="platform_gazebo" />
 

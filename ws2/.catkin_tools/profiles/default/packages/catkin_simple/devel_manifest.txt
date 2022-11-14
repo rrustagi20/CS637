@@ -1,6 +1,0 @@
-catkin_simple
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/catkin_simple/cmake.lock /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/./cmake.lock
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/catkin_simple/share/catkin_simple/cmake/catkin_simpleConfig.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/catkin_simple/cmake/catkin_simpleConfig.cmake
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/catkin_simple/share/catkin_simple/cmake/catkin_simple-extras.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/catkin_simple/share/catkin_simple/cmake/catkin_simpleConfig-version.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/catkin_simple/cmake/catkin_simpleConfig-version.cmake
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/catkin_simple/lib/pkgconfig/catkin_simple.pc /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/pkgconfig/catkin_simple.pc

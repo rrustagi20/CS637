@@ -16,7 +16,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+    */
 // #define OMEGA 1.0
 #define FORWARD_VEL 0.9
 #define ANGULAR_VEL 0.18
@@ -35,9 +35,16 @@ int main(int argc, char **argv)
 {
     ros::init(argc, argv, "platform_trajectory");
     ros::NodeHandle nh;
-    // Create a private node handle for accessing node parameters.
-    ros::NodeHandle nh_private("~");
-    ros::Publisher trajectory_pub = nh.advertise<geometry_msgs::Twist>("/husky_velocity_controller/cmd_vel", 10);
+    std::string velocityControllerTopic;
+    ros::Publisher trajectory_pub;
+    bool gotTopic = nh.getParam("platform_cmd_vel", velocityControllerTopic);
+    if (gotTopic)
+        trajectory_pub = nh.advertise<geometry_msgs::Twist>(velocityControllerTopic, 10);
+    else
+    {
+        ROS_INFO("Didn't find parameter platform_cmd_vel");
+        trajectory_pub = nh.advertise<geometry_msgs::Twist>("/platform/husky_velocity_controller/cmd_vel", 10);
+    }
     ROS_INFO("Started platform trajectory.");
 
     // Wait for 5 seconds to let the Gazebo GUI show up.

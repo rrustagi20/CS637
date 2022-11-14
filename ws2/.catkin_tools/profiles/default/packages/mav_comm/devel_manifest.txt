@@ -1,2 +1,0 @@
-mav_comm/mav_comm
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/mav_comm/cmake.lock /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/./cmake.lock

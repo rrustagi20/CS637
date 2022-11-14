@@ -1,6 +1,0 @@
-rotors_simulator/rotors_joy_interface
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_joy_interface/cmake.lock /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/./cmake.lock
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/rotors_joy_interface/rotors_joy_interface
-/attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/.private/rotors_joy_interface/lib/pkgconfig/rotors_joy_interface.pc /attached/Documents/5.0_Sem/CS637/MPC_AutoLanding/ws2/devel/lib/pkgconfig/rotors_joy_interface.pc
