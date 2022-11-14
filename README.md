@@ -37,6 +37,7 @@ $ source ~/.bashrc
 - If you need to source multiple workspaces, source one of them, then rebuild the other and then try sourcing it. This is because while building, setup.sh is formed according to the prexisting ROS_PACKAGE_PATH
 - You can't launch a model file until its world is defined
 - optenv is for providing you an option to directly export the variable on BASH, which will be picked up for that attribute, if not available, default value is used
+-Ifinclude velocity is included in MPC state vector we might achive more effiecient landing
 
 ## Problems
 
