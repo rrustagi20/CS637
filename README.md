@@ -2,6 +2,10 @@
 
 Implementing a MPC based Control for autonomous landing on a moving platform. Theory from [here](https://ieeexplore.ieee.org/document/9214043).
 
+## Landing on static platform
+
+https://user-images.githubusercontent.com/77167720/201858564-995e0bc0-8bc6-4767-8ce9-386ec0fc6fce.mp4
+
 ## Installation and Dependencies
 
 You need **ROS Melodic/Noetic** to run this workspace.
@@ -86,7 +90,7 @@ Man and have the MAV takeoff through the rosservice. Now run the node `follow_ug
 - If you need to source multiple workspaces, source one of them, then rebuild the other and then try sourcing it. This is because while building, setup.sh is formed according to the prexisting ROS_PACKAGE_PATH
 - You can't launch a model file until its world is defined
 - optenv is for providing you an option to directly export the variable on BASH, which will be picked up for that attribute, if not available, default value is used
-- Currently we feed only position information to the mpc_controller. If velocity is also included in the mpc state vector then we might achive more effiecient landing (in the case of moving platform)
+- Currently we feed only position information to the mpc_controller. If velocity is also included in the mpc state vector then we might achieve more effecient landing (in the case of moving platform)
 
 ## Problems
 
