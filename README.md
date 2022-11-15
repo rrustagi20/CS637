@@ -86,7 +86,7 @@ Man and have the MAV takeoff through the rosservice. Now run the node `follow_ug
 - If you need to source multiple workspaces, source one of them, then rebuild the other and then try sourcing it. This is because while building, setup.sh is formed according to the prexisting ROS_PACKAGE_PATH
 - You can't launch a model file until its world is defined
 - optenv is for providing you an option to directly export the variable on BASH, which will be picked up for that attribute, if not available, default value is used
-- If velocity is included in MPC state vector then we might achive more effiecient landing
+- Currently we feed only position information to the mpc_controller. If velocity is also included in the mpc state vector then we might achive more effiecient landing (in the case of moving platform)
 
 ## Problems
 
