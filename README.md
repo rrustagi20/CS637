@@ -14,7 +14,10 @@ sudo apt-get install liblapacke-dev
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 echo "source /usr/share/gazebo/setup.sh" >> ~/.bashrc
 ```
-
+Install ```vcstool``` for merging dependencies into the workspace
+```bash
+sudo apt install python3-vcstool
+```
 The following is to setup this root folder:
 
 ```bash
@@ -27,13 +30,9 @@ mkdir -p workspace2/src
 cd workspace2/ # for dependency only  catkin workspace
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
 catkin init
-cd src/
-git clone https://github.com/catkin/catkin_simple.git
-git clone https://github.com/ethz-asl/rotors_simulator.git
-git clone https://github.com/ethz-asl/mav_comm.git
-git clone https://github.com/ethz-asl/eigen_catkin.git
-git clone https://github.com/ethz-asl/mav_control_rw.git
-cd ../
+
+# Merge the dependencies into workspace
+vcs import src < ../install/ssh.rosinstall
 
 catkin build -j8 # wait till it finishes building, usually takes ~10minutes
 source devel/setup.bash
