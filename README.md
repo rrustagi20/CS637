@@ -2,6 +2,10 @@
 
 Implementing a MPC based Control for autonomous landing on a moving platform. Theory from [here](https://ieeexplore.ieee.org/document/9214043).
 
+## Landing on static platform
+
+https://user-images.githubusercontent.com/77167720/201858564-995e0bc0-8bc6-4767-8ce9-386ec0fc6fce.mp4
+
 ## Installation and Dependencies
 
 You need **ROS Melodic/Noetic** to run this workspace.
@@ -14,7 +18,10 @@ sudo apt-get install liblapacke-dev
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 echo "source /usr/share/gazebo/setup.sh" >> ~/.bashrc
 ```
-
+Install ```vcstool``` for merging dependencies into the workspace
+```bash
+sudo apt install python3-vcstool
+```
 The following is to setup this root folder:
 
 ```bash
@@ -27,13 +34,9 @@ mkdir -p workspace2/src
 cd workspace2/ # for dependency only  catkin workspace
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
 catkin init
-cd src/
-git clone https://github.com/catkin/catkin_simple.git
-git clone https://github.com/ethz-asl/rotors_simulator.git
-git clone https://github.com/ethz-asl/mav_comm.git
-git clone https://github.com/ethz-asl/eigen_catkin.git
-git clone https://github.com/ethz-asl/mav_control_rw.git
-cd ../
+
+# Merge the dependencies into workspace
+vcs import src < ../install/ssh.rosinstall
 
 catkin build -j8 # wait till it finishes building, usually takes ~10minutes
 source devel/setup.bash
@@ -87,7 +90,7 @@ Man and have the MAV takeoff through the rosservice. Now run the node `follow_ug
 - If you need to source multiple workspaces, source one of them, then rebuild the other and then try sourcing it. This is because while building, setup.sh is formed according to the prexisting ROS_PACKAGE_PATH
 - You can't launch a model file until its world is defined
 - optenv is for providing you an option to directly export the variable on BASH, which will be picked up for that attribute, if not available, default value is used
-- If velocity is included in MPC state vector then we might achive more effiecient landing
+- Currently we feed only position information to the mpc_controller. If velocity is also included in the mpc state vector then we might achieve more effecient landing (in the case of moving platform)
 
 ## Problems
 
